@@ -56,6 +56,8 @@ import { useRouter } from 'vue-router'
     padding: 56px 0 16px;
   }
   &__text {
+    margin-right:50px;
+    float:left;
     padding: 4px 0;
     cursor: pointer;
     &:hover {

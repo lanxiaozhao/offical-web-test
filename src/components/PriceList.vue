@@ -42,7 +42,7 @@
   </div>
   <div class="price-item">
     <div class="type">COMPANY</div>
-    <div class="amount">Contact us</div>
+    <div class="amount">{{amount}}<span class="unit">USD</span></div>
     <div class="note">For teams of 9+ people</div>
     <div class="feature">
       <div class="feature-item">Crop tool</div>

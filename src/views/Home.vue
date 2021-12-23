@@ -2,7 +2,7 @@
 <div class="home">
   <div class="container">
     <div class="home__header">
-      <Header />
+      <Header></Header>
     </div>
     <Banner />
     <Advantage />
@@ -16,10 +16,10 @@
 </template>
 
 <script lang='ts' setup>
-import Header from '@/components/header.vue'
-import Banner from '@/components/banner.vue'
-import Advantage from '@/components/advantage.vue'
-import Customer from '@/components/customer.vue'
+import Header from '@/components/Header.vue'
+import Banner from '@/components/Banner.vue'
+import Advantage from '@/components/Advantage.vue'
+import Customer from '@/components/Customer.vue'
 import Footer from '@/components/Footer.vue'
 </script>
 

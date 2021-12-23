@@ -20,7 +20,7 @@
 </template>
 
 <script lang='ts' setup>
-import Header from '@/components/header.vue'
+import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import PriceList from '@/components/PriceList.vue'
 </script>
@@ -67,7 +67,7 @@ import PriceList from '@/components/PriceList.vue'
       line-height: 1.4em;
     }
     &__text {
-      margin: 8px 0 0 8px;
+      margin: 8px 0 90px 8px; // 没有select的样式
       line-height: 1.4em;
       font-size: 22px;
     }

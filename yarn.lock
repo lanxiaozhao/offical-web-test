@@ -289,6 +289,13 @@ dom-serializer@^1.0.1:
     domhandler "^4.2.0"
     entities "^2.0.0"
 
+dom7@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npmmirror.com/dom7/download/dom7-4.0.2.tgz#b3595f34c9658d72e88bb6fa6a6e7b430d4bd5fd"
+  integrity sha512-Ji4t3Y/vNQg6Q9bR+Syx6Td8qiq8116LE9h4OzbPuxdxK7DyyX7i8EXkYgBX6+EiX6+oYXDTH5BSN29G/n4jug==
+  dependencies:
+    ssr-window "^4.0.0"
+
 domelementtype@^2.0.1, domelementtype@^2.2.0:
   version "2.2.0"
   resolved "https://registry.nlark.com/domelementtype/download/domelementtype-2.2.0.tgz#9a0b6c2782ed6a1c7323d42267183df9bd8b1d57"
@@ -500,11 +507,6 @@ htmlparser2@^7.1.2:
     domhandler "^4.2.2"
     domutils "^2.8.0"
     entities "^3.0.1"
-
-i@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.nlark.com/i/download/i-0.3.7.tgz#2a7437a923d59c14b17243dc63a549af24d85799"
-  integrity sha1-KnQ3qSPVnBSxckPcY6VJryTYV5k=
 
 iconv-lite@^0.4.4:
   version "0.4.24"
@@ -842,6 +844,19 @@ sourcemap-codec@^1.4.4:
   version "1.4.8"
   resolved "https://registry.nlark.com/sourcemap-codec/download/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha1-6oBL2UhXQC5pktBaOO8a41qatMQ=
+
+ssr-window@^4.0.0, ssr-window@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.npmmirror.com/ssr-window/download/ssr-window-4.0.2.tgz#dc6b3ee37be86ac0e3ddc60030f7b3bc9b8553be"
+  integrity sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==
+
+swiper@^7.3.3:
+  version "7.3.3"
+  resolved "https://registry.npmmirror.com/swiper/download/swiper-7.3.3.tgz#20cf955bfe7ae1e3d0c4418a2b1757b3484f0b89"
+  integrity sha512-Y6kjNI3MhqkLPOf01AZwXMxULMeFDEavArDyVKbOlBLhz+h3hj4vIHwbDUwI0k5iVH7VYNE67jWLsQmoKjuaVA==
+  dependencies:
+    dom7 "^4.0.2"
+    ssr-window "^4.0.2"
 
 to-fast-properties@^2.0.0:
   version "2.0.0"

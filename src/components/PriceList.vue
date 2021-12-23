@@ -1,10 +1,10 @@
 <template>
-<div class="select">
+<!-- <div class="select">
   <div class="select-item" :class="{'select-item--active': selected === 'month'}" @click="change('month')">Monthly</div>
   <div class="select-item" :class="{'select-item--active': selected === 'year'}" @click="change('year')">Yearly</div>
-</div>
+</div> -->
 <div class="price">
-  <div class="price-item">
+  <!-- <div class="price-item">
     <div class="type">STARTER</div>
     <div class="amount">Free</div>
     <div class="note">No credit card required, no trial period</div>
@@ -25,7 +25,7 @@
         <img :src="`/src/assets/icon/fengche.svg`" alt="icon">
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="price-item">
     <div class="type">PRO</div>
     <div class="amount">{{amount}}<span class="unit">USD</span></div>
@@ -59,19 +59,19 @@
 
 <script lang='ts' setup>
 import { ref } from 'vue'
-const selected = ref('month')
+// const selected = ref('month')
 const amount = ref('$5')
 const amountInfo = ref('Per user per month. Pay yearly & save $10')
-const change = (val: string) => {
-  selected.value= val
-  if (val === 'month') {
-    amount.value = '$5'
-    amountInfo.value= 'Per user per month. Pay yearly & save $10'
-  } else {
-    amount.value = '$50'
-    amountInfo.value= 'Per user per year. Saving $10'
-  }
-}
+// const change = (val: string) => {
+//   selected.value= val
+//   if (val === 'month') {
+//     amount.value = '$5'
+//     amountInfo.value= 'Per user per month. Pay yearly & save $10'
+//   } else {
+//     amount.value = '$50'
+//     amountInfo.value= 'Per user per year. Saving $10'
+//   }
+// }
 </script>
 
 <style lang='less' scoped>
@@ -98,7 +98,7 @@ const change = (val: string) => {
 .price {
   margin: 8px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   &-item {
     width: 340px;
     background: rgba(234,241,248,0.05);

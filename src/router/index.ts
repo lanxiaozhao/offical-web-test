@@ -3,7 +3,7 @@ import {
   createWebHashHistory,
   RouteRecordRaw
 } from 'vue-router'
-import Home from '@/views/home.vue'
+import Home from '@/views/Home.vue'
 import Pricing from '@/views/Pricing.vue'
 import Terms from '@/views/Terms.vue'
 import Privacy from '@/views/Privacy.vue'

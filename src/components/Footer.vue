@@ -7,6 +7,10 @@
     <div class="footer-item__text" @click="goTerms">Terms</div>
     <div class="footer-item__text" @click="goPrivacy">Privacy</div>
   </div>
+  <div class="footer-item">
+    <div class="copyright">© {{new Date().getFullYear()}} Gifmock</div>
+    
+  </div>
 </div>
 </template>
 
@@ -38,6 +42,8 @@ import { useRouter } from 'vue-router'
 <style lang='less' scoped>
 .footer {
   height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .footer-item {
   padding-bottom: 48px;
@@ -55,6 +61,9 @@ import { useRouter } from 'vue-router'
     &:hover {
       color: #dae1e8;
     }
+  }
+  .copyright {
+    padding: 56px 0 16px;
   }
 }
 
